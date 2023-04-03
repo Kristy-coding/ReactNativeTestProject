@@ -61,7 +61,7 @@ function App(): JSX.Element {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
-
+  console.log('first console log to test react native debugger')
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
