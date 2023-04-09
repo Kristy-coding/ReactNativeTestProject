@@ -15,6 +15,7 @@ import { View, Text } from 'react-native';
 // };
 
 const App = () => {
+  console.log('first console log on android')
   // const isOfflineModeActive = useSelector(
   //   (state) => state.shared.ui.isOfflineModeActive,
   // );
